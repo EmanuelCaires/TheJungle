@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker &display=swap');
+
+body {
+    text-align: center;
+
+
+}
+
+.bg-image {
+
+    background-image: url('/assets/images/junglebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(252, 151, 8);
+    font-size: 6.25rem;
+}
+
+#container {
+    margin: 0 auto;
+    width: 18.75rem;
+    padding: 1.875rem;
+    border-radius: 0.625rem;
+}
+
+h2 {
+    margin: 0, 0, 0, 0;
+    color: rgb(255, 255, 255);
+    font-size: 2.375rem;
+
+}
+
+#animal-image {
+    width: 15.625rem;
+    height: 15.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 50%;
+}
+
+#answer-input {
+    margin-bottom: 0.313rem;
+    padding: 0.625rem;
+    width: 100%;
+    border-radius: 0.438rem;
+}
+
+#submit-button {
+    padding: 0.625rem 1.25rem;
+    background-color: rgb(32, 145, 3);
+    color: #fff;
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+}
+
+
+#scoreboard {
+    margin-top: 0;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    font-size: 1.563rem;
+}
+
+#reset-button {
+    padding: 0.625rem 1.25rem;
+    background-color: rgb(32, 145, 3);
+    color: #fff;
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 0.625rem;
+    font-weight: bold;
+    color: rgb(248, 4, 17);
+    font-size: 1.563rem;
+}
+
+#winner-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.25rem;
+    display: none;
+}
