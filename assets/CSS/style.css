@@ -40,7 +40,8 @@ h2 {
     border-radius: 50%;
 }
 
-#answer-input {
+input#answer-input {
+
     margin-bottom: 0.313rem;
     padding: 0.625rem;
     width: 100%;
