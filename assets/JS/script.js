@@ -20,7 +20,12 @@ function generateAnimal() {
         { image: "owl.jpg", answer: "owl" },
         { image: "dear.jpg", answer: "dear" },
         { image: "snake.jpg", answer: "snake" },
-        { image: "squirrel.jpg", answer: "squirrel" }
+        { image: "squirrel.jpg", answer: "squirrel" },
+        { image: "koala.jpg", answer: "koala" },
+        { image: "frog.jpg", answer: "frog" },
+        { image: "lion.jpg", answer: "lion" },
+        { image: "wolf.jpg", answer: "wolf" },
+        { image: "elephant.jpg", answer: "squelephant" }
     ];
 
     var randomIndex = Math.floor(Math.random() * animals.length);
