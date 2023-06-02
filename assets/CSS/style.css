@@ -8,7 +8,7 @@ body {
 
 .bg-image {
 
-    background-image: url("./assets/images/jungle.jpg");
+    background-image: url('/assets/images/jungle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
