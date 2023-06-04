@@ -68,7 +68,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 * As a returning player, I want the ability to reset the game easily and start a new round with fresh animal images and scores.section whith free wheights and other equipment.
 
 ## Site Owners Goals
-* As the site owner, my goal is to create an enjoyable and engaging experience for players who want to test their animal knowledge.
+* As the site owner, my goal is to create an enjoyable and engaging experience for young age players who want to test their animal knowledge.
 
 * I aim to provide a visually appealing and user-friendly interface that enhances the gameplay and encourages users to continue playing.
 
