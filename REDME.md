@@ -14,7 +14,6 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
          * [Expectations](#expectations)
      * [Design Choices](#design-choices)
         * [Fonts](#fonts)
-        * [Icons](#icons)
         * [Colours](#colours)
         * [Structure](#structure)
     * [Wireframes](#wireframes)
@@ -117,32 +116,28 @@ to find a text that best suits the feel of the website.
  as I feel it is has a sharp, simple and easy to read look. 
  To make the headers and the stand out form the text.
 
- ## Icons
- 
-I will used some icons for my website from the Font Awesome library. These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
-
 #
 
 I will explain the uses of the varius colours below, starting from top to bottom.
 
 ## Colours
 
- * #292929 - This colour will be used as navbarand footer background colour submit buttom color and text content  Color.
+ * rgb(252, 151, 8) - This colour will be used as h1.
 
- * #616161 - This colour will be used on the "back to the top" buttom as hover colour .
+ * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color .
 
- * #FFFFFF - This colour will be used as a background colour, Navbar and Footer as a text colour.
+ * rgb(9, 27, 5) - This colour will be used as a botoom color.
 
 ## Wireframes
 I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
 The wireframes are below:
 
-###   [desktop view](Wireframes/desktopview.png)
+###   [desktop view](wireframes/desktop.png)
 
-###   [phone view](Wireframes/phoneview.png)
+###   [phone view](wireframes/mobile.png)
 
-###   [tablet view](Wireframes/tabletview.png)
+###   [tablet view](wireframes/tablet.png)
 
 
 ## Structure
@@ -164,7 +159,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
-+ Now the website is now live on https://emanuelcaires.github.io/Factorygym/
++ Now the website is now live on https://emanuelcaires.github.io/Factorygymwordgame/
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 # Testing
