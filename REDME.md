@@ -133,11 +133,11 @@ I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop m
 
 The wireframes are below:
 
-###   [desktop view](wireframes/desktop.png)
+###   [desktop view](wireframes/desktop.jpg)
 
-###   [phone view](wireframes/mobile.png)
+###   [phone view](wireframes/mobile.jpg)
 
-###   [tablet view](wireframes/tablet.png)
+###   [tablet view](wireframes/tablet.jpg)
 
 
 ## Structure
