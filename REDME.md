@@ -90,7 +90,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 
 
 ## Expectations
-*Fun and Challenging Gameplay: The Animal Guessing Game offers an entertaining and engaging experience that challenges your animal knowledge and identification skills. Enjoy the thrill of guessing animals based on their pictures!
+*Fun and Challenging Gameplay: The WordGame offers an entertaining and engaging experience that challenges your animal knowledge and identification skills. Enjoy the thrill of guessing animals based on their pictures!
 
 * User-Friendly Interface: The game features a clean and intuitive interface that allows for easy navigation and interaction. The input field for entering guesses, the submit button, and the feedback display are designed to be straightforward and user-friendly.
 
@@ -98,7 +98,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 
 * Immediate Feedback: The game provides immediate feedback on your answers. You'll know right away if your guess is correct or incorrect, allowing you to learn and improve with each attempt.
 
-* Multiplayer Capability: The Animal Guessing Game supports multiplayer functionality, enabling you to compete with your friends or family members. Take turns guessing the animals and see who can achieve the highest score or reach the winning score first.
+* Multiplayer Capability: The WordGame supports multiplayer functionality, enabling you to compete with your friends or family members. Take turns guessing the animals and see who can achieve the highest score or reach the winning score first.
 
 * Scoring System: The game keeps track of your score as you progress. Each correct guess earns you a point, and the current scores of all players are displayed on the screen. Strive to achieve the highest score or be the first to reach the winning score!
 
