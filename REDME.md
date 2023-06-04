@@ -38,37 +38,73 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 * Ux
 
 ## User Goals
-* Visually appealing, including images.
-* Easily navigated around.
-* Quality and valuable content.
-* Easily found contact details.
-* Form to directly contact the Gym.
+* Guess the Animal: Your primary goal is to guess the name of the animal displayed in the image correctly.
+
+* Score Points: Each correct answer earns you one point. The game keeps track of your score, so try to accumulate as many points as possible.
+
+* Compete with Others: Challenge your friends or family members to beat your score. The game supports multiplayer, allowing multiple players to take turns guessing the animals.
+
+* Achieve Victory: The first player to reach a score of 5 wins the game. Strive to be the first to achieve this milestone!
+
+* Improve Animal Knowledge: The game presents various animal images, providing an opportunity to learn and expand your knowledge of different species.
+
+* Quick and Engaging Rounds: The game generates random animals for each round, ensuring that every game session is unique and exciting.
+
+* Reset and Restart: If you want to start a new game at any time, click the "Reset" button. This will reset the scores and generate a new animal image, allowing you to begin a fresh round.
 
 ## User Stories
-* As a user, I want the website to give me information about the Gym.
-* As a user, I want to be able to easily contact the Gym.
-* As a user, I want to be able to make contact with the Gym via several different methods, i.e. social media.
-* As a user, I want to be able to easily navigate through the website.
-* As a user, I want to know what type of classes the gym offers, any section whith free wheights and other equipment.
+* As a player, I want to test my animal knowledge and see if I can correctly identify different species based on their pictures.
+
+* As a competitive player, I want to compete with my friends or family members to see who can earn the highest score in the Animal Guessing Game.
+
+* As a learner, I want to use the Animal Guessing Game as an educational tool to improve my knowledge of various animals and their characteristics.
+
+* As a casual player, I want to enjoy a quick and engaging game session that offers entertaining challenges without requiring a significant time commitment.
+
+* As a multiplayer enthusiast, I want to have the option to play the game with multiple players, allowing us to take turns and see who can reach the winning score first.
+
+* As a beginner, I want clear instructions on how to play the game, including how to enter my guess, check the answer, and understand the feedback provided.
+
+* As a returning player, I want the ability to reset the game easily and start a new round with fresh animal images and scores.section whith free wheights and other equipment.
 
 ## Site Owners Goals
-* Promote the Gym.
-* Increase the number of members.
-* Increase rankings on search engines.
+* As the site owner, my goal is to create an enjoyable and engaging experience for players who want to test their animal knowledge.
+
+* I aim to provide a visually appealing and user-friendly interface that enhances the gameplay and encourages users to continue playing.
+
+* I want to encourage social interaction and friendly competition by implementing multiplayer functionality, allowing players to compete with their friends or family members.
+
+* I strive to foster a learning environment where players can expand their knowledge of different animals and their characteristics.
+
+* I aim to ensure that the game is accessible to a wide range of users, regardless of their level of experience or expertise in animals.
+
+* I want to regularly update the game by adding new animal images and expanding the question bank, providing fresh challenges for players.
+
+* I value user feedback and suggestions, as they help me improve the game and address any issues or concerns that players may have.
 
 ## Requirements
-* Easy to navigate on various screen sizes.
-* Clear information what the Gym has to offers.
-* Keep the user interested with small bits of information to make them want to engage with the Gym.
-* Simple methods of contacting the Gym.
-* Apelative so users do not leave.
+* A web browser: The game is built using HTML, CSS, and JavaScript and can be played on any modern web browser.
+
+* Internet connection: The game requires an internet connection to load the necessary assets, such as animal images.
+
+
 
 ## Expectations
-* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
-* I expect all links to social media sites to be opened in a new tab.
-* I expect all navigation links to work correctly.
-* I expect screen size not to affect the quality of the website.
-* I expect all information to be correct and accurate.
+*Fun and Challenging Gameplay: The Animal Guessing Game offers an entertaining and engaging experience that challenges your animal knowledge and identification skills. Enjoy the thrill of guessing animals based on their pictures!
+
+* User-Friendly Interface: The game features a clean and intuitive interface that allows for easy navigation and interaction. The input field for entering guesses, the submit button, and the feedback display are designed to be straightforward and user-friendly.
+
+* Randomized Animal Images: Each round of the game presents a random animal image, ensuring a unique and unpredictable gameplay experience. You can expect a diverse range of animals to guess, keeping the game fresh and exciting.
+
+* Immediate Feedback: The game provides immediate feedback on your answers. You'll know right away if your guess is correct or incorrect, allowing you to learn and improve with each attempt.
+
+* Multiplayer Capability: The Animal Guessing Game supports multiplayer functionality, enabling you to compete with your friends or family members. Take turns guessing the animals and see who can achieve the highest score or reach the winning score first.
+
+* Scoring System: The game keeps track of your score as you progress. Each correct guess earns you a point, and the current scores of all players are displayed on the screen. Strive to achieve the highest score or be the first to reach the winning score!
+
+* Educational Value: The game offers an opportunity to expand your knowledge of different animals and their characteristics. Whether you're a nature enthusiast or simply looking to learn something new, the Animal Guessing Game provides an enjoyable way to explore the animal kingdom.
+
+* Resetting the Game: If you want to start a new game or reset the scores, you can easily do so with the provided "Reset" button. This allows you to begin fresh rounds and compete again for the highest score or victory.
 
 # Design Choices
 
