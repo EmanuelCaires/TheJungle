@@ -21,7 +21,7 @@ h1 {
 }
 
 #container {
-    margin:  auto;
+    margin: 0 auto;
     width: 18.75rem;
     padding: 1.875rem;
     border-radius: 0.625rem;
