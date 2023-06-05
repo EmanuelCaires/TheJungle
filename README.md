@@ -206,7 +206,11 @@ large blank spaces. It allows the user to navigate around easily and
 
     ![](wireframes/cssvalidator.jpg)
 
+    # LightHouse Desktop
+
     ![](wireframes/lighthousedesktop.jpg)
+
+    # Lighthouse Mobile
 
     ![](wireframes/lighthousemobile.jpg)
 
