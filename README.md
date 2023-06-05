@@ -120,7 +120,9 @@ I will explain the uses of the varius colours below, starting from top to bottom
 
  * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color .
 
- * rgb(9, 27, 5) - This colour will be used as a botoom color.
+ * rgb(9, 27, 5) - This colour will be used as a  reset botoom color.
+ 
+ * rgb(22, 93, 6) - This colour will be used as a  submit botoom color.
 
 ## Wireframes
 I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
