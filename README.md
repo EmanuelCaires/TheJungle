@@ -212,15 +212,15 @@ large blank spaces. It allows the user to navigate around easily and
 
 # Desktop
 
-![](wireframes/desktoppage.png)
+![](wireframes/desktoppage.jpg)
 
 # Mobile
 
-![](wireframes/mobilepage.png)
+![](wireframes/mobilepage.jpg)
 
 # Tablet
 
-![](wireframes/tabletPage.png)
+![](wireframes/tabletPage.jpg)
 
 
 
