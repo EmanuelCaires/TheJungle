@@ -148,6 +148,29 @@ The wireframes are below:
 
 ###   [tablet view](wireframes/tablet.jpg)
 
+# Features
+
+## Existing Features
+
+
+### Landing Page
+
++ The landing page image gives the user instant knowledge of what is involved in the webpage, the images under show the diferet tipes of devices that the page can load .
+
+# Desktop
+
+![](wireframes/desktoppage.jpg)
+
+# Mobile
+
+![](wireframes/mobilepage.jpg)
+
+# Tablet
+
+![](wireframes/tabletpage.jpg)
+
+
+
 
 # Deployment
 
@@ -212,27 +235,6 @@ large blank spaces. It allows the user to navigate around easily and
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
-# Features
-
-## Existing Features
-
-
-### Landing Page
-
-+ The landing page image gives the user instant knowledge of what is involved in the webpage, the images under show the diferet tipes of devices that the page can load .
-
-# Desktop
-
-![](wireframes/desktoppage.jpg)
-
-# Mobile
-
-![](wireframes/mobilepage.jpg)
-
-# Tablet
-
-![](wireframes/tabletpage.jpg)
-
 
 
 # Credits
