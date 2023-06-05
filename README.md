@@ -112,7 +112,7 @@ In order to move away from the basic fonts available, I have used
 [Google Fonts](https://fonts.google.com/ "Google Fonts") 
 to find a text that best suits the feel of the website.
  For the main text I have chosen 
- [Oswald](https://fonts.google.com/specimen/Oswald "Oswald") 
+ [Roboto](https://fonts.google.com/specimen/Roboto "Roboto") 
  as I feel it is has a sharp, simple and easy to read look. 
  To make the headers and the stand out form the text.
 
