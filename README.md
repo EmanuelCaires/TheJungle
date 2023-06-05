@@ -180,6 +180,13 @@ large blank spaces. It allows the user to navigate around easily and
 
     ![](wireframes/cssvalidator.jpg)
 
+    ![](wireframes/lighthousemobile.jpg)
+
+    ![](wireframes/ligthousedesktop.jpg)
+
+
+
+
 
 + After all i felt that the site has hit the goals.The site responds nicely to all types of devices that was tested, the images look clean and sharp this allow user to navigaate easily throuth the site not puting the user off.
 
@@ -233,5 +240,6 @@ For code testing, my soon Matias Caires
 For Content and style insperation,
 * [Pexels](https://www.pexels.com/)
 * [convertimage](https://convertimage.net/index.asp)
-* [Les Miles](https://www.lesmills.com/)
-* [Jasper](https://www.jasper.ai/)
+* [picresize](https://picresize.com/)
+* [123rf](https://www.123rf.com//)
+
