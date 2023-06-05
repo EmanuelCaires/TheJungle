@@ -19,13 +19,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [Wireframes](#wireframes)
     * [Features](#features)
         * [Existing Features](#existing-features)
-            * [Navigation Bar](#navigation-bar)
             * [Landing Page](#landing-page)
-            * [About Section](#about-section)
-            * [Classes Section](#classes-section)
-            * [Gallery Section](#gallery-section)
-            * [Contact Section](#contact-section)
-            * [Footer](#footer)
         * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
@@ -211,70 +205,28 @@ large blank spaces. It allows the user to navigate around easily and
 
 ## Existing Features
 
-### Navigation Bar
-
-+ The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the Gym logo which doubles as a link back to the home screen.
-
-![](Wireframes/NavBar.png)
-
-+ Small devices (<992px)
-
-+ As the navigation bar would be unuseable in the desktop version on smaller devices, it takes on a hamburger style.
-
-![](Wireframes/SmallDevice.png)
-
-![](Wireframes/SmallDeviceMenu.png)
 
 ### Landing Page
 
-+ The landing page image gives the user instant knowledge of what is involved in the Gym amd a good motivation to scroll down to find out more.
++ The landing page image gives the user instant knowledge of what is involved in the webpage, the images under show the diferet tipes of devices that the page can load .
 
-![](Wireframes/LandingPage.png)
+# Desktop
 
-### About Section
+![](wireframes/desktoppage.png)
 
-+ The about section gives a description of the type of classes, membership prices and some offers that will find at the Gym.
-+ It is also responsive to suit the different screen sizes.
- 
-![](Wireframes/About.png)
+# Mobile
 
-### Classes Section
+![](wireframes/mobilepage.png)
 
-+ The classes section gives am idea about the type of classesexiste at the Gym  and a dropdown buttom, when pressed  open up with small descripition of class.
+# Tablet
 
-![](Wireframes/Classes.png)
-
-### Gallery Section
-
-+ The gallery section show a slideshow of pictures of the Gym.
-
-![](Wireframes/Gallery.png)
-
-### Contact Section
-
-+ The contact section allows the user to quickly send a message to the Gym.
-
-![](Wireframes/Contact.png)
-
-### Footer Section
-
-+ The footer contains the social media links related to Gym.
-+ These social links all open in a new tab for ease of use to the user and also, so the user has an ability to easily come back to Gym's site.
- 
-![](Wireframes/Footer.png)
-
-
-
-+ Add a menbership Page where will be able to gym subcription and classes booked.
-+ Add a booking in system classes.
-+ Add a Merchandise page whit  sport clothes and suplements.
+![](wireframes/tabletPage.png)
 
 
 
 # Credits
 
-For code insperation, help and advice,
-* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+For code testing, my soon Matias Caires
 
 For Content and style insperation,
 * [Pexels](https://www.pexels.com/)
