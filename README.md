@@ -118,10 +118,10 @@ I will explain the uses of the varius colours below, starting from top to bottom
 
  * rgb(252, 151, 8) - This colour will be used as h1.
 
- * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color .
+ * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color.
 
- * rgb(9, 27, 5) - This colour will be used as a  reset botoom color.
- 
+ * rgb(238, 27, 55) - This colour will be used as a  reset botoom color and feedback.
+
  * rgb(22, 93, 6) - This colour will be used as a  submit botoom color.
 
 ## Wireframes
