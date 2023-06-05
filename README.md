@@ -20,7 +20,6 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
-        * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
         * [Tools and Libraries](#tools-and-libraries)
@@ -74,6 +73,8 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 * I want to regularly update the game by adding new animal images and expanding the question bank, providing fresh challenges for players.
 
 * I value user feedback and suggestions, as they help me improve the game and address any issues or concerns that players may have.
+
+## user-requirements-and-expectations
 
 ## Requirements
 * A web browser: The game is built using HTML, CSS, and JavaScript and can be played on any modern web browser.
@@ -205,9 +206,9 @@ large blank spaces. It allows the user to navigate around easily and
 
     ![](wireframes/cssvalidator.jpg)
 
-    ![](wireframes/lighthousemobile.jpg)
+    ![](wireframes/lighthousedesktop.jpg)
 
-    ![](wireframes/ligthousedesktop.jpg)
+    ![](wireframes/lighthousemobile.jpg)
 
 
 
