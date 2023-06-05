@@ -124,16 +124,6 @@ I will explain the uses of the varius colours below, starting from top to bottom
 
  * rgb(22, 93, 6) - This colour will be used as a  submit botoom color.
 
-## Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
-
-The wireframes are below:
-
-###   [desktop view](wireframes/desktop.jpg)
-
-###   [phone view](wireframes/mobile.jpg)
-
-###   [tablet view](wireframes/tablet.jpg)
 
 
 ## Structure
@@ -146,6 +136,18 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 | medium      | => 768px   |
 | large       | => 992px   |
 | x-large     | => 1200px  |
+
+## Wireframes
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+
+The wireframes are below:
+
+###   [desktop view](wireframes/desktop.jpg)
+
+###   [phone view](wireframes/mobile.jpg)
+
+###   [tablet view](wireframes/tablet.jpg)
+
 
 # Deployment
 
