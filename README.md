@@ -238,8 +238,6 @@ large blank spaces. It allows the user to navigate around easily and
 For code testing, my soon Matias Caires
 
 For Content and style insperation,
-* [Pexels](https://www.pexels.com/)
-* [convertimage](https://convertimage.net/index.asp)
 * [picresize](https://picresize.com/)
 * [123rf](https://www.123rf.com//)
 
