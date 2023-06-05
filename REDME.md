@@ -159,7 +159,7 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Then select 'Pages' on the side navigation.
 + Select the 'None' dropdown, and then click 'master'.
 + Click on the 'Save' button.
-+ Now the website is now live on https://emanuelcaires.github.io/Factorygymwordgame/
++ Now the website is now live on https://emanuelcaires.github.io/wordgame/
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
 # Testing
@@ -193,14 +193,12 @@ large blank spaces. It allows the user to navigate around easily and
 * [JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
 ## Libraries & Framework
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 ## Tools
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 # Features
 
