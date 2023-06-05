@@ -229,7 +229,7 @@ large blank spaces. It allows the user to navigate around easily and
 
 # Tablet
 
-![](wireframes/tabletpagetabletpage.jpg)
+![](wireframes/tabletpage.jpg)
 
 
 
