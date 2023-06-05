@@ -177,12 +177,12 @@ large blank spaces. It allows the user to navigate around easily and
 + During the validate of html ans css on validatewc3.org i found out div whitout closer and some duplicated, after amending this my html passed whitout error.whit css i did the same procedure found out that was some error that i amend and passed on the css validator whitout any errors.
     - HTML (index.html) validator [results]("https://validator.w3.org/")
     
-    ![](wireframes/diferentviewshtmlchecker.jpg)
+    ![](wireframes/htmlchecker.jpg)
 
 
     - CSS validator [results]("https://jigsaw.w3.org/css-validator/")
 
-    ![](wireframes/diferentviewscssvalidator.jpg)
+    ![](wireframes/cssvalidator.jpg)
 
 
 + After all i felt that the site has hit the goals.The site responds nicely to all types of devices that was tested, the images look clean and sharp this allow user to navigaate easily throuth the site not puting the user off.
