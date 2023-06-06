@@ -1,94 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital, wght@1, 300 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300 &display=swap');
+
+/* Importing the Roboto font from Google Fonts */
 
 body {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Setting the font family to Roboto */
 }
 
 .bg-image {
-
-    background-image: url("../images/junglle.jpg");
+    /* Styling for the background image */
+    background-image: url("../images/junglle.jpg"); /* Setting the background image */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100vh; /* Setting the height of the background image */
 }
 
 h1 {
+    /* Styling for the main heading */
     margin-top: 0;
     margin-bottom: 0;
-    color: rgb(252, 151, 8);
-    font-size: 6.25rem;
+    color: rgb(252, 151, 8); /* Setting the color of the heading */
+    font-size: 6.25rem; /* Setting the font size of the heading */
 }
 
 h2 {
-
-    color: rgb(255, 255, 255);
-    font-size: 2.375rem;
+    /* Styling for subheadings */
+    color: rgb(255, 255, 255); /* Setting the color of the subheading */
+    font-size: 2.375rem; /* Setting the font size of the subheading */
 }
 
 #container {
-
-    margin: 0 auto;
-    width: 18.75rem;
-    border-radius: 0.625rem;
+    /* Styling for the main container */
+    margin: 0 auto; /* Centering the container horizontally */
+    width: 18.75rem; /* Setting the width of the container */
+    border-radius: 0.625rem; /* Setting the border radius of the container */
 }
 
 #animal-image {
-
-    width: 15.625rem;
-    height: 15.625rem;
-    margin-bottom: 0.625rem;
-    border-radius: 50%;
+    /* Styling for the animal image */
+    width: 15.625rem; /* Setting the width of the animal image */
+    height: 15.625rem; /* Setting the height of the animal image */
+    margin-bottom: 0.625rem; /* Setting the margin bottom of the animal image */
+    border-radius: 50%; /* Creating a circular shape for the animal image */
 }
 
 input#answer-input {
-
-    margin-bottom: 0.313rem;
-    padding: 0.625rem;
-    width: 100%;
-    border-radius: 0.438rem;
+    /* Styling for the answer input field */
+    margin-bottom: 0.313rem; /* Setting the margin bottom of the answer input */
+    padding: 0.625rem; /* Setting the padding of the answer input */
+    width: 100%; /* Setting the width of the answer input */
+    border-radius: 0.438rem; /* Setting the border radius of the answer input */
 }
 
 #submit-button {
-
-    padding: 0.625rem 1.25rem;
-    background-color: rgb(22, 93, 6);
-    color: #fff;
-    border: none;
-    border-radius: 0.313rem;
-    cursor: pointer;
+    /* Styling for the submit button */
+    padding: 0.625rem 1.25rem; /* Setting the padding of the submit button */
+    background-color: rgb(22, 93, 6); /* Setting the background color of the submit button */
+    color: #fff; /* Setting the text color of the submit button */
+    border: none; /* Removing the border of the submit button */
+    border-radius: 0.313rem; /* Setting the border radius of the submit button */
+    cursor: pointer; /* Changing the cursor to a pointer on hover */
 }
 
 #reset-button {
-    
-    padding: 0.625rem 1.25rem;
-    background-color: rgb(238, 27, 55);
-    color: #fff;
-    border: none;
-    border-radius: 0.313rem;
-    cursor: pointer;
+    /* Styling for the reset button */
+    padding: 0.625rem 1.25rem; /* Setting the padding of the reset button */
+    background-color: rgb(238, 27, 55); /* Setting the background color of the reset button */
+    color: #fff; /* Setting the text color of the reset button */
+    border: none; /* Removing the border of the reset button */
+    border-radius: 0.313rem; /* Setting the border radius of the reset button */
+    cursor: pointer; /* Changing the cursor to a pointer on hover */
 }
 
 #scoreboard {
-
-    margin-top: 0;
-    font-weight: bold;
-    color: rgb(253, 253, 253);
-    font-size: 1.563rem;
+    /* Styling for the scoreboard */
+    margin-top: 0; /* Setting the margin top of the scoreboard */
+    font-weight: bold; /* Setting the font weight of the scoreboard */
+    color: rgb(253, 253, 253); /* Setting the color of the scoreboard */
+    font-size: 1.563rem; /* Setting the font size of the scoreboard */
 }
 
 #feedback {
-
-    margin-top: 0.625rem;
-    font-weight: bold;
-    color: rgb(238, 27, 55);
-    font-size: 1.563rem;
+    /* Styling for the feedback message */
+    margin-top: 0.625rem; /* Setting the margin top of the feedback message */
+    font-weight: bold; /* Setting the font weight of the feedback message */
+    color: rgb(238, 27, 55); /* Setting the color of the feedback message */
+    font-size: 1.563rem; /* Setting the font size of the feedback message */
 }
 
 #winner-message {
-
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 1.25rem;
-    display: none;
+    /* Styling for the winner message */
+    font-size: 1.5rem; /* Setting the font size of the winner message */
+    font-weight: bold; /* Setting the font weight of the winner message */
+    margin-top: 1.25rem; /* Setting the margin top of the winner message */
+    display: none; /* Hiding the winner message by default */
 }
+
+
+
+
