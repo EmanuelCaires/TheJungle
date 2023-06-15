@@ -5,13 +5,15 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif; /* Setting the font family to Roboto */
+    
 }
 
 .bg-image {
     /* Styling for the background image */
     background-image: url("../images/junglle.jpg"); /* Setting the background image */
-    background-size: cover;
-    background-repeat: no-repeat;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
     height: 100vh; /* Setting the height of the background image */
 }
 
@@ -95,6 +97,38 @@ input#answer-input {
     margin-top: 1.25rem; /* Setting the margin top of the winner message */
     display: none; /* Hiding the winner message by default */
 }
+
+#back-to-top-btn {
+    position : fixed;
+    bottom : 30 px;
+    right : 30 px;
+    width : 50 px;
+    height : 50 px;
+    border-radius : 50%;
+    background-color: #007bff;
+    color:#fff;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    font-size : 24 px;
+    opacity : 0;
+    visibility : hidden;
+transition : opacity 0.3 s ease,
+visibility 0.3 s ease;
+
+
+}
+
+
+
+
+
+#back-to-top-btn.active {
+    opacity : 1;
+    visibility : visible;
+}
+
+
 
 
 
