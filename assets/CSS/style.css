@@ -1,19 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital, wght@1, 300 &display=swap');
 
 /* Importing the Roboto font from Google Fonts */
 
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif; /* Setting the font family to Roboto */
-    
+
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-brand {
+color: rgb(252, 151, 8);
+font-size: 40px;
+font-weight: bold;
+
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: rgb(252, 151, 8);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(220, 53, 69);
+    border-color: rgb(25, 135, 84);
 }
 
 .bg-image {
     /* Styling for the background image */
     background-image: url("../images/junglle.jpg"); /* Setting the background image */
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     height: 100vh; /* Setting the height of the background image */
 }
 
@@ -24,6 +49,12 @@ h1 {
     color: rgb(252, 151, 8); /* Setting the color of the heading */
     font-size: 6.25rem; /* Setting the font size of the heading */
 }
+
+p{
+    color: #fff;
+    font-size: medium;
+}
+
 
 h2 {
     /* Styling for subheadings */
@@ -99,37 +130,27 @@ input#answer-input {
 }
 
 #back-to-top-btn {
-    position : fixed;
-    bottom : 30 px;
-    right : 30 px;
-    width : 50 px;
-    height : 50 px;
-    border-radius : 50%;
+    position: fixed;
+    bottom: 30 px;
+    right: 30 px;
+    width: 50 px;
+    height: 50 px;
+    border-radius: 50%;
     background-color: #007bff;
-    color:#fff;
-    display : flex;
-    align-items : center;
-    justify-content : center;
-    font-size : 24 px;
-    opacity : 0;
-    visibility : hidden;
-transition : opacity 0.3 s ease,
-visibility 0.3 s ease;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24 px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3 s ease, visibility 0.3 s ease;
 
 
 }
-
-
-
 
 
 #back-to-top-btn.active {
-    opacity : 1;
-    visibility : visible;
+    opacity: 1;
+    visibility: visible;
 }
-
-
-
-
-
-
