@@ -12,17 +12,17 @@ body {
 /* Navbar Styles */
 .navbar-light .navbar-brand {
     color: rgb(252, 151, 8);
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(252, 151, 8);
-    font-size: 20px;
+    font-size : 1.25rem;
     font-weight: bold;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-light .navbar-toggler{
     color: rgb(252, 151, 8);
     border-color: rgb(9, 238, 131);
 }
@@ -45,7 +45,7 @@ body {
 
 h2 {
     /* Styling for subheadings */
-    margin-top: 65px;
+    margin-top: 4.063rem;
     color: rgb(255, 255, 255); 
     font-size: 2.375rem; 
 }
@@ -59,7 +59,7 @@ h3 {
 
 /* Styling for the main container */
 #container {
-    margin-top: 40px; 
+    margin-top: 2.5rem; 
     width: 18.75rem; 
     border-radius: 0.625rem; 
 }
@@ -84,7 +84,8 @@ input#answer-input {
 #submit-button {
     padding: 0.625rem 1.25rem; 
     background-color: rgb(22, 93, 6);
-    color: #fff; 
+    color : rgb(255, 255, 255);
+
     border: none; 
     border-radius: 0.313rem; 
     cursor: pointer; 
@@ -94,7 +95,8 @@ input#answer-input {
 #reset-button {
     padding: 0.625rem 1.25rem;
     background-color: rgb(238, 27, 55); 
-    color: #fff;
+color : rgb(255, 255, 255);
+
     border: none; 
     border-radius: 0.313rem; 
     cursor: pointer; 
