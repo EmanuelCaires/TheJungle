@@ -21,10 +21,10 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
+            * [Testing](#testing)
     * [Tech Stacks](#tec-stacks)
         * [Languages](#languages)
         * [Tools](#tools)
-    * [Testing](#testing)
     * [Credits](#credits)
 * Ux
 
