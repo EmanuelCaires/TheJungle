@@ -189,13 +189,9 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 I feel that the site has hit the goals required by all parties. 
 The site responds nicely to all different screen sizes, 
 the images look clean and sharp on all device sizes with very little, 
-large blank spaces. It allows the user to navigate around easily and
- aslo make contact via the contact form or social media simply. It the content is simple and to the point and the site is not overcrowded as to put the user off.
-\
-&nbsp;
 
- To test the website i will use chrome develepor tools to resize my browser to emulate three mobile devices,(iphone 12 pro, iphone se pixel 5 ) and two tablets device (ipad air, ipad mini) and compare whit the wireframes that i created.The website it was responsive in all the mobile phone view and the tablet view,with one particular issue that was the burguer menu it did not collapse.after investigate i found that was using diferent version of bootstrap that was blocking to not colapse the nav menu.
- 
+&nbsp;
+  
 + During the validation process of my HTML, CSS, and JavaScript, I encountered a few minors issues that required attention. After making the necessary amendments, I revalidated the HTML CSS AND JAVASCRIPT it successfully passed without any errors.
 
     - HTML (index.html) validator [results]("https://validator.w3.org/")
@@ -215,18 +211,85 @@ large blank spaces. It allows the user to navigate around easily and
 
     ![](wireframes/lighthousemobile.jpg)
 
+    Title: JavaScript Tests using Jest
 
 
 
+# Introduction
+This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
+
+# Test Suite: Animal Guessing Game
+The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
+
+# Test Case 1: generateAnimal should set a new animal image
+- Description: This test case ensures that the generateAnimal function sets a new animal image by verifying that the image source is not an empty string.
+- Test Code:
+```javascript
+test('generateAnimal should set a new animal image', () => {
+  generateAnimal();
+
+  const animalImage = document.getElementById('animal-image');
+  const animalSrc = animalImage.src;
+
+  expect(animalSrc).not.toBe('');
+});
+# Test Case 2: checkAnswer should increment the score for the current player on correct answer
+
+test('checkAnswer should increment the score for the current player on correct answer', () => {
+
+const answerInput = document.getElementById('answer-input');
+  answerInput.value = 'bear';
+
+  const player1ScoreElement = document.getElementById('player1-score');
+  const player2ScoreElement = document.getElementById('player2-score');
+
+  checkAnswer();
+
+  if (currentPlayer === 1) {
+    expect(player1ScoreElement.textContent).toBe('Player 1: 1');
+    expect(player2ScoreElement.textContent).toBe('Player 2: 0');
+  } else {
+    expect(player1ScoreElement.textContent).toBe('Player 1: 0');
+    expect(player2ScoreElement.textContent).toBe('Player 2: 1');
+  }
+});
+
+# Test Case 3: resetGame should reset the game state
+
+test('resetGame should reset the game state', () => {
+
+const player1ScoreElement = document.getElementById('player1-score');
+  const player2ScoreElement = document.getElementById('player2-score');
+  const feedbackElement = document.getElementById('feedback');
+  const submitButton = document.getElementById('submit-button');
+  const answerInput = document.getElementById('answer-input');
+
+  player1ScoreElement.textContent = 'Player 1: 2';
+  player2ScoreElement.textContent = 'Player 2: 3';
+  feedbackElement.textContent = 'Incorrect answer';
+  submitButton.disabled = true;
+  answerInput.value = 'wrong answer';
+
+  resetGame();
+
+  expect(player1ScoreElement.textContent).toBe('Player 1: 0');
+  expect(player2ScoreElement.textContent).toBe('Player 2: 0');
+  expect(feedbackElement.textContent).toBe('');
+  expect(submitButton.disabled).toBe(false);
+  expect(answerInput.value).toBe('');
+});
+
+
+# Conclusion
+The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game's functionality. By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. Additional tests can be added to cover other functions or edge cases as required.
+
+The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. Regularly running these tests during development can provide confidence in the code's behavior and facilitate maintenance and future enhancements.
 
 + After all i felt that the site has hit the goals.The site responds nicely to all types of devices that was tested, the images look clean and sharp this allow user to navigaate easily throuth the site not puting the user off.
 
-+ While using the lighthouse dev tools to test the site I was prompt with delays to load the images due to the format i am  using.
-
-\
 &nbsp;
 
-# Tech Stacks
+## Tech Stacks
 
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
