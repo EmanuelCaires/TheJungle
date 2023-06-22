@@ -115,13 +115,13 @@ to find a text that best suits the feel of the website.
 I will explain the uses of the varius colours below, starting from top to bottom.
 
 ## Colours
- * rgb(252, 151, 8) - This colour will be used as h1.
+ * RGB	`rgb(R,G,B)` `rgb(252, 151, 8)` - This colour will be used as h1.
 
- * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color.
+ * RGB	`rgb(R,G,B)` `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
 
- * rgb(238, 27, 55) - This colour will be used as a  reset botoom color and feedback.
+ * RGB	`rgb(R,G,B)` `rgb(238, 27, 55)` - This colour will be used as a  reset botoom color and feedback.
 
- * rgb(22, 93, 6) - This colour will be used as a  submit botoom color.
+ * RGB	`rgb(R,G,B)` `rgb(22, 93, 6)` - This colour will be used as a  submit botoom color.
 
 ## Structure
 I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -197,7 +197,7 @@ the images look clean and sharp on all device sizes with very little,
 
 + JavaScript Tests using Jest
 
-# Introduction
+## Introduction
 This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
 
 + Test Suite: Animal Guessing Game
@@ -261,8 +261,7 @@ const player1ScoreElement = document.getElementById('player1-score');
   expect(answerInput.value).toBe('');
 });
 
-# Conclusion
-
+## Conclusion
 The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game functionality. 
 By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. 
 Additional tests can be added to cover other functions or edge cases as required.
@@ -274,36 +273,36 @@ Regularly running these tests during development can provide confidence in the c
 ## Tech Stacks
 
 ## Languages
-* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+*[HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 
-* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+*[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-* [JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
+*[JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
 
 ## Libraries 
 
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+*[Google Fonts](https://fonts.google.com/ "Google Fonts")
 
 ## Tools
 
-* [Gitpod](https://www.gitpod.io/ "Gitpod")
+*[Gitpod](https://www.gitpod.io/ "Gitpod")
 
-* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+*[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 
-* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+*[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+*[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 
-* [Bootstrap](https://getbootstrap.com "Bootstrap")
+*[Bootstrap](https://getbootstrap.com "Bootstrap")
 
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+*[Google Fonts](https://fonts.google.com/ "Google Fonts")
 
 
-# Credits
+## Credits
 For code testing, my soon Matias Caires
 
 For Content and style insperation,
 
-* [picresize](https://picresize.com/)
+*[picresize](https://picresize.com/)
 
-* [123rf](https://www.123rf.com//)
+*[123rf](https://www.123rf.com//)
