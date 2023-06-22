@@ -56,7 +56,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 
 * As a beginner, I want clear instructions on how to play the game, including how to enter my guess, check the answer, and understand the feedback provided.
 
-* As a returning player, I want the ability to reset the game easily and start a new round with fresh animal images and scores.section whith free wheights and other equipment.
+* As a returning player, I want the ability to reset the game easily and start a new round with fresh animal images and scores. section with free weights and other equipment.
 
 ## Site Owners Goals
 * As the site owner, my goal is to create an enjoyable and engaging experience for young age players who want to test their animal knowledge.
@@ -85,7 +85,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 ## Expectations
 *Fun and Challenging Gameplay: The WordGame offers an entertaining and engaging experience that challenges your animal knowledge and identification skills. Enjoy the thrill of guessing animals based on their pictures!
 
-* User-Friendly Interface: The game features a clean and intuitive interface that allows for easy navigation and interaction. The input field for entering guesses, the submit button, and the feedback display are designed to be straightforward and user-friendly.
+* User-Friendly Interface: The game features a clean and intuitive interface that allows for easy navigation and interaction. The input field for entering guesses, the submit button, and the feedback display is designed to be straightforward and user-friendly.
 
 * Randomized Animal Images: Each round of the game presents a random animal image, ensuring a unique and unpredictable gameplay experience. You can expect a diverse range of animals to guess, keeping the game fresh and exciting.
 
@@ -105,26 +105,25 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 In order to move away from the basic fonts available, I have used 
 [Google Fonts](https://fonts.google.com/ "Google Fonts") 
 to find a text that best suits the feel of the website.
- For the main text I have chosen 
+ For the main text, I have chosen 
  [Roboto](https://fonts.google.com/specimen/Roboto "Roboto") 
- as I feel it is has a sharp, simple and easy to read look. 
- To make the headers and the stand out form the text.
+ as I feel it has a sharp, simple and easy-to-read look. 
+ To make the headers stand out from the text.
 
-#
 
-I will explain the uses of the varius colours below, starting from top to bottom.
+I will explain the uses of the various colours below, starting from top to bottom.
 
 ## Colours
  * RGB	`rgb(R,G,B)` `rgb(252, 151, 8)` - This colour will be used as h1.
 
  * RGB	`rgb(R,G,B)` `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
 
- * RGB	`rgb(R,G,B)` `rgb(238, 27, 55)` - This colour will be used as a  reset botoom color and feedback.
+ * RGB	`rgb(R,G,B)` `rgb(238, 27, 55)` - This colour will be used as a  reset bottom colour and feedback.
 
- * RGB	`rgb(R,G,B)` `rgb(22, 93, 6)` - This colour will be used as a  submit botoom color.
+ * RGB	`rgb(R,G,B)` `rgb(22, 93, 6)` - This colour will be used as a  submit bottom colour.
 
 ## Structure
-I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
+I will be building my website with a mobile-first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
 
 | Screen Size | Breakpoint |
 | ----------- | ---------- |
@@ -135,7 +134,7 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 | x-large     | => 1200px  |
 
 ## Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scaled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the club, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
 The wireframes are below:
 
@@ -150,7 +149,7 @@ The wireframes are below:
 ## Existing Features
 
 ### Landing Page
-+ The landing page image gives the user instant knowledge of what is involved in the webpage, the images under show the diferet tipes of devices that the page can load .
++ The landing page image gives the user instant knowledge of what is involved in the webpage, the images show the different types of devices that the page can load.
 
 # Desktop
 ![](wireframes/desktoppage.jpg)
@@ -162,43 +161,43 @@ The wireframes are below:
 ![](wireframes/tabletpage.jpg)
 
 ## Deployment
-Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+Following writing the code and then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
-+ Navigate to the repository on github and click 'Settings'.
++ Navigate to the repository on Git Hub and click 'Settings'.
 + Then select 'Pages' on the side navigation.
-+ Select the 'None' dropdown, and then click 'master'.
++ Select the 'None' dropdown, and then click 'Master'.
 + Click on the 'Save' button.
-+ Now the website is now live on https://emanuelcaires.github.io/wordgame/
-+ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
++ Now The website is now live on https://emanuelcaires.github.io/wordgame/
++ If any changes are required, they can be done, committed and pushed to GitHub and the changes will be updated.
 
 ## Testing
 + I feel that the site has hit the goals required by all parties. 
 The site responds nicely to all different screen sizes, 
 the images look clean and sharp on all device sizes with very little, 
  
-+ During the validation process of my HTML and  CSS, I encountered a few minors issues that required attention. After making the necessary amendments, I revalidated the HTML and CSS it successfully passed without any errors.
++ During the validation process of my HTML and  CSS, I encountered a few minor issues that required attention. After making the necessary amendments, I revalidated the HTML and CSS it successfully passed without any errors.
 
-    - HTML (index.html) validator [results]("https://validator.w3.org/")
+- HTML (index.html) validator [results]("https://validator.w3.org/")
     
-    ![](wireframes/htmlchecker.jpg)
+![](wireframes/htmlchecker.jpg)
 
 
-    - CSS validator [results]("https://jigsaw.w3.org/css-validator/")
+- CSS validator [results]("https://jigsaw.w3.org/css-validator/")
 
-    ![](wireframes/cssvalidator.jpg)
+![](wireframes/cssvalidator.jpg)
 
-    - LightHouse Desktop
+- LightHouse Desktop
 
-    ![](wireframes/lighthousedesktop.jpg)
+![](wireframes/lighthousedesktop.jpg)
 
-    - Lighthouse Mobile
+- Lighthouse Mobile
 
-    ![](wireframes/lighthousemobile.jpg)
+![](wireframes/lighthousemobile.jpg)
 
 + JavaScript Tests using Jest
 
 ## Introduction
-This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
+This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behaviour of the provided JavaScript code.
 
 + Test Suite: Animal Guessing Game
 The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
@@ -215,7 +214,7 @@ test('generateAnimal should set a new animal image', () => {
   expect(animalSrc).not.toBe('');
 });
 
-+ Test Case 2: checkAnswer should increment the score for the current player on correct answer
++ Test Case 2: checkAnswer should increment the score for the current player on the correct answer
 
 test('checkAnswer should increment the score for the current player on correct answer', () => {
 
@@ -240,7 +239,7 @@ const answerInput = document.getElementById('answer-input');
 
 test('resetGame should reset the game state', () => {
 
-const player1ScoreElement = document.getElementById('player1-score');
+  const player1ScoreElement = document.getElementById('player1-score');
   const player2ScoreElement = document.getElementById('player2-score');
   const feedbackElement = document.getElementById('feedback');
   const submitButton = document.getElementById('submit-button');
@@ -267,10 +266,10 @@ By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure t
 Additional tests can be added to cover other functions or edge cases as required.
 
 The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. 
-Regularly running these tests during development can provide confidence in the code  behavior and facilitate maintenance and future enhancements.
+Regularly running these tests during development can provide confidence in the code  behaviour and facilitate maintenance and future enhancements.
 
 
-## Tech Stacks
+## TechStacks
 
 ## Languages
 *[HTML](https://en.wikipedia.org/wiki/HTML "HTML")
@@ -301,7 +300,7 @@ Regularly running these tests during development can provide confidence in the c
 ## Credits
 For code testing, my soon Matias Caires
 
-For Content and style insperation,
+For Content and style inspiration,
 
 *[picresize](https://picresize.com/)
 
