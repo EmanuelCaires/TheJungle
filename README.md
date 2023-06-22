@@ -192,7 +192,7 @@ the images look clean and sharp on all device sizes with very little,
 
 &nbsp;
   
-+ During the validation process of my HTML, CSS, and JavaScript, I encountered a few minors issues that required attention. After making the necessary amendments, I revalidated the HTML CSS AND JAVASCRIPT it successfully passed without any errors.
++ During the validation process of my HTML and  CSS, I encountered a few minors issues that required attention. After making the necessary amendments, I revalidated the HTML and CSS it successfully passed without any errors.
 
     - HTML (index.html) validator [results]("https://validator.w3.org/")
     
@@ -215,13 +215,13 @@ the images look clean and sharp on all device sizes with very little,
 
 
 
-# Introduction
++ Introduction
 This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
 
-# Test Suite: Animal Guessing Game
++ Test Suite: Animal Guessing Game
 The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
 
-# Test Case 1: generateAnimal should set a new animal image
++ Test Case 1: generateAnimal should set a new animal image
 - Description: This test case ensures that the generateAnimal function sets a new animal image by verifying that the image source is not an empty string.
 - Test Code:
 ```javascript
@@ -233,7 +233,7 @@ test('generateAnimal should set a new animal image', () => {
 
   expect(animalSrc).not.toBe('');
 });
-# Test Case 2: checkAnswer should increment the score for the current player on correct answer
++ Test Case 2: checkAnswer should increment the score for the current player on correct answer
 
 test('checkAnswer should increment the score for the current player on correct answer', () => {
 
@@ -254,7 +254,7 @@ const answerInput = document.getElementById('answer-input');
   }
 });
 
-# Test Case 3: resetGame should reset the game state
++ Test Case 3: resetGame should reset the game state
 
 test('resetGame should reset the game state', () => {
 
@@ -280,12 +280,15 @@ const player1ScoreElement = document.getElementById('player1-score');
 });
 
 
-# Conclusion
-The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game's functionality. By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. Additional tests can be added to cover other functions or edge cases as required.
++ Conclusion
+The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game functionality. 
+By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. 
+Additional tests can be added to cover other functions or edge cases as required.
 
-The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. Regularly running these tests during development can provide confidence in the code's behavior and facilitate maintenance and future enhancements.
+The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. 
+Regularly running these tests during development can provide confidence in the code  behavior and facilitate maintenance and future enhancements.
 
-+ After all i felt that the site has hit the goals.The site responds nicely to all types of devices that was tested, the images look clean and sharp this allow user to navigaate easily throuth the site not puting the user off.
+
 
 &nbsp;
 
