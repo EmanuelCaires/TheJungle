@@ -20,9 +20,9 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
-    * [Tech Stacks](#technologies-used)
+    * [Tech Stacks](#tec-stacks)
         * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
+        * [Tools](#tools)
     * [Testing](#testing)
     * [Deployment](#deployment)
     * [Credits](#credits)
@@ -288,20 +288,18 @@ Additional tests can be added to cover other functions or edge cases as required
 The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. 
 Regularly running these tests during development can provide confidence in the code  behavior and facilitate maintenance and future enhancements.
 
-
-
 &nbsp;
 
-## Tech Stacks
+# Tech Stacks
 
-## Languages
+# Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
 * [JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
 
-## Libraries & Framework
+## Libraries 
 
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
@@ -329,3 +327,6 @@ For Content and style insperation,
 
 * [123rf](https://www.123rf.com//)
 
+
+
+[def]: #deployment
