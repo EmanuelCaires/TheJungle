@@ -20,11 +20,10 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
-    * [Technologies used](#technologies-used)
+    * [Tech Stacks](#technologies-used)
         * [Languages](#languages)
         * [Tools and Libraries](#tools-and-libraries)
     * [Testing](#testing)
-        * [Unfixed Bugs](#unfixed-bugs)
     * [Deployment](#deployment)
     * [Credits](#credits)
 * Ux
@@ -211,20 +210,20 @@ the images look clean and sharp on all device sizes with very little,
 
     ![](wireframes/lighthousemobile.jpg)
 
-    Title: JavaScript Tests using Jest
-
-
++ JavaScript Tests using Jest
 
 + Introduction
+
 This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
 
 + Test Suite: Animal Guessing Game
 The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
 
-+ Test Case 1: generateAnimal should set a new animal image
-- Description: This test case ensures that the generateAnimal function sets a new animal image by verifying that the image source is not an empty string.
 - Test Code:
+
 ```javascript
++ Test Case 1: generateAnimal should set a new animal image
+
 test('generateAnimal should set a new animal image', () => {
   generateAnimal();
 
@@ -233,6 +232,7 @@ test('generateAnimal should set a new animal image', () => {
 
   expect(animalSrc).not.toBe('');
 });
+
 + Test Case 2: checkAnswer should increment the score for the current player on correct answer
 
 test('checkAnswer should increment the score for the current player on correct answer', () => {
@@ -279,8 +279,8 @@ const player1ScoreElement = document.getElementById('player1-score');
   expect(answerInput.value).toBe('');
 });
 
-
 + Conclusion
+
 The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game functionality. 
 By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. 
 Additional tests can be added to cover other functions or edge cases as required.
@@ -296,16 +296,27 @@ Regularly running these tests during development can provide confidence in the c
 
 ## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
 * [JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
+
 ## Libraries & Framework
+
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
+
 ## Tools
+
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
+
 * [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+
 * [Bootstrap](https://getbootstrap.com "Bootstrap")
+
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
 
@@ -315,5 +326,6 @@ For code testing, my soon Matias Caires
 
 For Content and style insperation,
 * [picresize](https://picresize.com/)
+
 * [123rf](https://www.123rf.com//)
 
