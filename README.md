@@ -17,6 +17,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
         * [Colours](#colours)
         * [Structure](#structure)
     * [Wireframes](#wireframes)
+        * [Deployment](#deployment)
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
@@ -24,7 +25,6 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
         * [Languages](#languages)
         * [Tools](#tools)
     * [Testing](#testing)
-    * [Deployment](#deployment)
     * [Credits](#credits)
 * Ux
 
@@ -115,7 +115,6 @@ to find a text that best suits the feel of the website.
 I will explain the uses of the varius colours below, starting from top to bottom.
 
 ## Colours
-
  * rgb(252, 151, 8) - This colour will be used as h1.
 
  * rgb(255, 255, 255) - This colour will be used on h2 paragraphs and butoon background color.
@@ -123,8 +122,6 @@ I will explain the uses of the varius colours below, starting from top to bottom
  * rgb(238, 27, 55) - This colour will be used as a  reset botoom color and feedback.
 
  * rgb(22, 93, 6) - This colour will be used as a  submit botoom color.
-
-
 
 ## Structure
 I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -152,28 +149,19 @@ The wireframes are below:
 
 ## Existing Features
 
-
 ### Landing Page
-
 + The landing page image gives the user instant knowledge of what is involved in the webpage, the images under show the diferet tipes of devices that the page can load .
 
 # Desktop
-
 ![](wireframes/desktoppage.jpg)
 
 # Mobile
-
 ![](wireframes/mobilepage.jpg)
 
 # Tablet
-
 ![](wireframes/tabletpage.jpg)
 
-
-
-
-# Deployment
-
+## Deployment
 Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
 
 + Navigate to the repository on github and click 'Settings'.
@@ -183,14 +171,11 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 + Now the website is now live on https://emanuelcaires.github.io/wordgame/
 + If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
 
-# Testing
-
-I feel that the site has hit the goals required by all parties. 
+## Testing
++ I feel that the site has hit the goals required by all parties. 
 The site responds nicely to all different screen sizes, 
 the images look clean and sharp on all device sizes with very little, 
-
-&nbsp;
-  
+ 
 + During the validation process of my HTML and  CSS, I encountered a few minors issues that required attention. After making the necessary amendments, I revalidated the HTML and CSS it successfully passed without any errors.
 
     - HTML (index.html) validator [results]("https://validator.w3.org/")
@@ -212,14 +197,11 @@ the images look clean and sharp on all device sizes with very little,
 
 + JavaScript Tests using Jest
 
-+ Introduction
-
+# Introduction
 This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behavior of the provided JavaScript code.
 
 + Test Suite: Animal Guessing Game
 The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
-
-- Test Code:
 
 ```javascript
 + Test Case 1: generateAnimal should set a new animal image
@@ -279,7 +261,7 @@ const player1ScoreElement = document.getElementById('player1-score');
   expect(answerInput.value).toBe('');
 });
 
-+ Conclusion
+# Conclusion
 
 The tests conducted on the JavaScript code using Jest aimed to verify the correctness of the game functionality. 
 By testing the generateAnimal, checkAnswer, and resetGame functions, we ensure that the game operates as intended. 
@@ -288,11 +270,10 @@ Additional tests can be added to cover other functions or edge cases as required
 The tests help identify and prevent potential issues, ensuring the reliability and robustness of the code. 
 Regularly running these tests during development can provide confidence in the code  behavior and facilitate maintenance and future enhancements.
 
-&nbsp;
 
-# Tech Stacks
+## Tech Stacks
 
-# Languages
+## Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
@@ -319,14 +300,10 @@ Regularly running these tests during development can provide confidence in the c
 
 
 # Credits
-
 For code testing, my soon Matias Caires
 
 For Content and style insperation,
+
 * [picresize](https://picresize.com/)
 
 * [123rf](https://www.123rf.com//)
-
-
-
-[def]: #deployment
