@@ -2,7 +2,7 @@
 
 The WordGame is a simple JavaScript game where players take turns guessing the name of an animal based on its picture. The game keeps track of each player's score, and the first player to reach a score of 5 wins.
 
-![](wireframes/alldevices.jpg)
+![](wireframes/alldevices.png)
 
 # Table of Contents
 * [UX](#ux "UX")
