@@ -2,7 +2,7 @@
 
 The WordGame is a simple JavaScript game where players take turns guessing the name of an animal based on its picture. The game keeps track of each player's score, and the first player to reach a score of 5 wins.
 
-![](wireframes/diferentviews.jpg)
+![](wireframes/alldevices.jpg)
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -143,11 +143,11 @@ I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop m
 
 The wireframes are below:
 
-###   [desktop view](wireframes/wireframes-desktop.jpg)
+###   [desktop view](wireframes/wireframesdesktop.jpg)
 
-###   [phone view](wireframes/wireframes-mobile.jpg)
+###   [phone view](wireframes/wireframesmobile.jpg)
 
-###   [tablet view](wireframes/wireframes-tablet.jpg)
+###   [tablet view](wireframes/wireframestablet.jpg)
 
 # Features
 
