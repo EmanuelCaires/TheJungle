@@ -22,7 +22,7 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
         * [Existing Features](#existing-features)
             * [Landing Page](#landing-page)
             * [Testing](#testing)
-    * [Tech Stacks](#tec-stacks)
+    * [Tech Stacks](#tech-stacks)
         * [Languages](#languages)
         * [Tools](#tools)
     * [Credits](#credits)
@@ -114,13 +114,13 @@ to find a text that best suits the feel of the website.
 I will explain the uses of the various colours below, starting from top to bottom.
 
 ## Colours
- * RGB	`rgb(R,G,B)` `rgb(252, 151, 8)` - This colour will be used as h1.
+ * RGB   `rgb(252, 151, 8)` - This colour will be used as h1.
 
- * RGB	`rgb(R,G,B)` `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
+ * RGB   `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
 
- * RGB	`rgb(R,G,B)` `rgb(238, 27, 55)` - This colour will be used as a  reset bottom colour and feedback.
+ * RGB   `rgb(238, 27, 55)` - This colour will be used as a  reset bottom colour and feedback.
 
- * RGB	`rgb(R,G,B)` `rgb(22, 93, 6)` - This colour will be used as a  submit bottom colour.
+ * RGB   `rgb(22, 93, 6)` - This colour will be used as a  submit bottom colour.
 
 ## Structure
 I will be building my website with a mobile-first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -161,7 +161,7 @@ The wireframes are below:
 ![](wireframes/tabletpage.jpg)
 
 ## Deployment
-Following writing the code and then committing and pushing to GitHub, this project was deployed using GitHub by the following steps.
+Following writing the code and then committing and pushing it to GitHub, this project was deployed using GitHub by the following steps.
 
 + Navigate to the repository on Git Hub and click 'Settings'.
 + Then select 'Pages' on the side navigation.
@@ -269,16 +269,15 @@ The tests help identify and prevent potential issues, ensuring the reliability a
 Regularly running these tests during development can provide confidence in the code  behaviour and facilitate maintenance and future enhancements.
 
 
-## TechStacks
+## Tech Stacks
 
 ## Languages
+   
 *[HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 
 *[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
 *[JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
-
-## Libraries 
 
 *[Google Fonts](https://fonts.google.com/ "Google Fonts")
 
@@ -295,9 +294,9 @@ Regularly running these tests during development can provide confidence in the c
 *[Bootstrap](https://getbootstrap.com "Bootstrap")
 
 *[Google Fonts](https://fonts.google.com/ "Google Fonts")
-
-
-## Credits
+                
+#Credits
+                
 For code testing, my soon Matias Caires
 
 For Content and style inspiration,
