@@ -9,7 +9,6 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
     * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
      * [Design Choices](#design-choices)
@@ -73,7 +72,6 @@ The WordGame is a simple JavaScript game where players take turns guessing the n
 
 * I value user feedback and suggestions, as they help me improve the game and address any issues or concerns that players may have.
 
-## user-requirements-and-expectations
 
 ## Requirements
 * A web browser: The game is built using HTML, CSS, and JavaScript and can be played on any modern web browser.
@@ -114,13 +112,13 @@ to find a text that best suits the feel of the website.
 I will explain the uses of the various colours below, starting from top to bottom.
 
 ## Colours
- * RGB   `rgb(252, 151, 8)` - This colour will be used as h1.
+ * `rgb(252, 151, 8)` - This colour will be used as h1.
 
- * RGB   `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
+ * `rgb(255, 255, 255)` - This colour will be used on h2 paragraphs and butoon background color.
 
- * RGB   `rgb(238, 27, 55)` - This colour will be used as a  reset bottom colour and feedback.
+ * `rgb(238, 27, 55)` - This colour will be used as a  reset bottom colour and feedback.
 
- * RGB   `rgb(22, 93, 6)` - This colour will be used as a  submit bottom colour.
+ * `rgb(22, 93, 6)` - This colour will be used as a  submit bottom colour.
 
 ## Structure
 I will be building my website with a mobile-first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
@@ -148,16 +146,16 @@ The wireframes are below:
 
 ## Existing Features
 
-### Landing Page
+## Landing Page
 + The landing page image gives the user instant knowledge of what is involved in the webpage, the images show the different types of devices that the page can load.
 
-# Desktop
+## Desktop
 ![](wireframes/desktoppage.jpg)
 
-# Mobile
+## Mobile
 ![](wireframes/mobilepage.jpg)
 
-# Tablet
+## Tablet
 ![](wireframes/tabletpage.jpg)
 
 ## Deployment
@@ -194,7 +192,6 @@ the images look clean and sharp on all device sizes with very little,
 
 ![](wireframes/lighthousemobile.jpg)
 
-+ JavaScript Tests using Jest
 
 ## Introduction
 This document provides an overview of the tests conducted on the JavaScript code using Jest. Jest is a popular testing framework for JavaScript that offers a simple and intuitive approach to writing tests. The tests aim to validate the functionality and behaviour of the provided JavaScript code.
@@ -202,7 +199,7 @@ This document provides an overview of the tests conducted on the JavaScript code
 + Test Suite: Animal Guessing Game
 The Animal Guessing Game is responsible for the functionality of a game where players guess the name of an animal based on an image displayed on the screen.
 
-```javascript
+javascript
 + Test Case 1: generateAnimal should set a new animal image
 
 test('generateAnimal should set a new animal image', () => {
@@ -269,38 +266,39 @@ The tests help identify and prevent potential issues, ensuring the reliability a
 Regularly running these tests during development can provide confidence in the code  behaviour and facilitate maintenance and future enhancements.
 
 
-## Tech Stacks
+# Tech Stacks
 
 ## Languages
    
-*[HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 
-*[CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
-*[JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
+* [JS](https://en.wikipedia.org/wiki/JavaScript "JAVASCRIP")
 
-*[Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
 
 ## Tools
 
-*[Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
 
-*[Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 
-*[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 
-*[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 
-*[Bootstrap](https://getbootstrap.com "Bootstrap")
+* [Bootstrap](https://getbootstrap.com "Bootstrap")
 
-*[Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
                 
-#Credits
+## Credits
                 
-For code testing, my soon Matias Caires
+* For code testing, my soon Matias Caires
 
-For Content and style inspiration,
+* For Content and style inspiration,
 
-*[picresize](https://picresize.com/)
+* [picresize](https://picresize.com/)
 
-*[123rf](https://www.123rf.com//)
+* [123rf](https://www.123rf.com//)
+
